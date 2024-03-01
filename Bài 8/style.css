@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+img{
+	width: 100%;
+}
+.content {
+	display: flex;
+}
+textarea {
+	margin-top: -6px;
+	margin-left: 5px;
+}
+.button-container {
+	display: flex;
+	margin-top: -8px;
+	margin-left: 68px;
+}
+.main-content {
+	display: flex;
+}
+.nav-bar, .content, .layout-3 {
+	flex: 1;
+}
+.nav-bar ul li {
+	color: blue;
+	font-size: 20px;
+	width: 200px;
+	border: 1px solid #000;
+	list-style: none;
+}
+center {
+	font-weight: bold;
+	font-size: 30px;
+	color: red;
+}

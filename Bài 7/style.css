@@ -1,0 +1,60 @@
+center, caption {
+	width: 70%;
+	font-size: 30px;
+	background-color: #ff69b4;
+	color: white;
+}
+table{
+	width: 70%;
+	border: 10px solid #ff69b4;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 10px;
+	border-bottom: 3px solid #ff69b4;
+}
+tr {
+	background-color: #fbeff5;
+	display: flex;
+	flex-direction: column;
+}
+input[type="text"] {
+
+	width: 70%;
+	padding: 5px;
+}
+.input-container{
+	display: flex;
+	flex-direction: column;
+/*	align-items: center;*/
+}
+
+.input-container label {
+	display: inline-block;
+	width: 120px; 
+	text-align: right;
+	margin-right: 10px; 
+}
+
+.input-container input {
+	margin-bottom: 10px;
+/*	display: inline-block;*/
+	width: 50% 
+}
+input[type="radio"] {
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+}
+/*code đoạn fax, phone*/
+.form-row-main {
+/*	width: 204px;*/
+	display: flex;
+}
+.form-row-main form-row {
+	width: 250px;
+}
+label, p, button, i {
+	font-size: 20px;
+}
